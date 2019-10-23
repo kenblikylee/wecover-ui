@@ -9,9 +9,9 @@ ui for wecover.
 ``` sh
 lerna ls
 lerna bootstrap
- lerna changed
- lerna diff [package?]
- lerna publish
+lerna changed
+lerna diff [package?]
+lerna publish
 ```
 
 ## License
