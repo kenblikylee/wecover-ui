@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "dist",
+      "sourceMap": false,
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "allowJs": false,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "removeComments": false,
+      "jsx": "react",
+      "lib": ["esnext", "dom"],
+      "types": ["jest", "node"],
+      "rootDir": ".",
+      "paths": {
+        "ui": ["packages/ui/src"],
+        "@wecover/image": ["packages/image/src"]
+      }
+    },
+    "include": [
+      "packages/*/src",
+      "packages/*/__tests__"
+    ]
+  }
+  

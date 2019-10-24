@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
   },
+  "buildOptions": {
+    "name": "image",
+    "formats": ["esm", "cjs", "global", "esm-browser"]
+  },
   "keywords": [],
   "author": "ken",
   "license": "MIT"
